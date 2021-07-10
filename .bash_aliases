@@ -40,3 +40,4 @@ alias ydl-480='youtube-dl -f "bestvideo[height<=480][ext=mp4]+bestaudio[ext=m4a]
 alias ydl-720='youtube-dl -f "bestvideo[height<=720][ext=mp4]+bestaudio[ext=m4a]"'
 alias ydl-4k='echo -e "This will transcode the video from webm to h264 which could take a long time\n\n"; youtube-dl -f "bestvideo[ext=webm]+bestaudio[ext=m4a]" --recode-video mp4'
 alias ydl-mp3='youtube-dl --extract-audio -f bestaudio[ext=mp3] --no-playlist'
+alias ydl-playlist='youtube-dl --extract-audio --audio-format mp3'
