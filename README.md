@@ -1,13 +1,14 @@
 # [Ajay](https://github.com/ajaykarwal)’s dotfiles
 
-This is the very start of my dotfiles repo.
+A quick way to setup dotfiles for a nicer terminal experience.
 
-**Do not use this unless you know what you're doing.**
-
+**!! Do not use this unless you know what you're doing !!**
 
 ## Acknowledgements
 
-Inspiration and code was taken from many sources, including:
+The current version which is now compatible with `zsh` is mainly converted from the old `bash` version by ChatGPT.
+
+The original inspiration and code was taken from many sources, including:
 
 * [Mathias Bynens' dotfiles](https://github.com/mathiasbynens/dotfiles)
 * [Cătălin Mariș' dotfiles](https://github.com/alrra/dotfiles)

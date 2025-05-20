@@ -25,8 +25,8 @@ alias jw="bundle exec jekyll serve --watch --future --livereload"
 alias path="tr ':' '\n' <<< "$PATH""
 # Start a quick local HTTP server in the current directory
 alias serve="browser-sync start -s -f . --no-notify --host $LOCAL_IP --port 9000"
-# Reload .bash_profile
-alias reload="source ~/.bash_profile"
+# Reload .zprofile
+alias reload="source ~/.zprofile"
 
 # MAVEN CLEAN INSTALL
 alias mci="mvn clean install -P autoInstallPackage"
